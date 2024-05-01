@@ -1,0 +1,68 @@
+{
+  "imie": "Jan",
+  "wzrost": 171,
+  "wiek": 34,
+  "kolorOczu": "zielone",
+  "samochody": ["Opel", "BMW"],
+  "jestSzczesliwy": true,
+  "ulubionaKsiazka": {
+    "tytul": "Lubię Majsterkować",
+    "autor": "Adam Słodowy",
+    "ocena": 9.99
+  }
+}
+
+Pary klucz-wartość:
+
+"imie": "Jan"
+Klucz: "imie"
+Wartość: "Jan"
+Typ danych: String (łańcuch znaków)
+
+"wzrost": 171
+Klucz: "wzrost"
+Wartość: 171
+Typ danych: Number (liczba całkowita)
+
+"wiek": 34
+Klucz: "wiek"
+Wartość: 34
+Typ danych: Number (liczba całkowita)
+
+"kolorOczu": "zielone"
+Klucz: "kolorOczu"
+Wartość: "zielone"
+Typ danych: String (łańcuch znaków)
+
+"samochody": ["Opel", "BMW"]
+Klucz: "samochody"
+Wartość: ["Opel", "BMW"]
+Typ danych: Array (tablica)
+Typ danych elementów w tablicy: String (łańcuchy znaków)
+
+"jestSzczesliwy": true
+Klucz: "jestSzczesliwy"
+Wartość: true
+Typ danych: Boolean (wartość logiczna)
+
+"ulubionaKsiazka": { "tytul": "Lubię Majsterkować", "autor": "Adam Słodowy", "ocena": 9.99 }
+Klucz: "ulubionaKsiazka"
+Wartość: Obiekt zawierający:
+"tytul": "Lubię Majsterkować" (klucz: "tytul", wartość: "Lubię Majsterkować", typ danych: String)
+"autor": "Adam Słodowy" (klucz: "autor", wartość: "Adam Słodowy", typ danych: String)
+"ocena": 9.99 (klucz: "ocena", wartość: 9.99, typ danych: Number)
+
+Struktura JSON:
+
+JSON (JavaScript Object Notation) to format wymiany danych używany do przesyłania danych
+między serwerem a klientem.
+
+Obiekty JSON są otoczone nawiasami klamrowymi {} i składają się z par klucz-wartość,
+gdzie klucze są zawsze łańcuchami znaków (stringami), a wartościami mogą być różne typy danych:
+stringi, liczby, tablice, obiekty, wartości logiczne (true/false) itp.
+
+Tablice JSON są otoczone nawiasami kwadratowymi [] i zawierają wartości rozdzielone przecinkami.
+Mogą zawierać różne typy danych, w tym również obiekty JSON lub inne tablice.
+
+Przykładowy kod JSON przedstawia obiekt, który reprezentuje informacje o osobie.
+
